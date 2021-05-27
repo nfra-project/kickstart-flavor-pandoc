@@ -1,4 +1,4 @@
-FROM nfra/kickstart-ckit:unstable AS ckit
+FROM nfra/kickstart-ckit:1.1 AS ckit
 FROM ubuntu:21.04
 
 LABEL   maintainer="Matthias Leuffen <m@tth.es>" \
