@@ -1,3 +1,0 @@
-## Another heading
-
-## And section

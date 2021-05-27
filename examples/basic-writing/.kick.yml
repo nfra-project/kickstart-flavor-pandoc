@@ -8,7 +8,9 @@ command:
   dev: |
     pandoc -o _out/document.pdf \
           --defaults defaults.yaml \
+          --pdf-engine=xelatex \
           --file-scope \
+          --filter=pandoc-plantuml \
           --filter=pandoc-xnos \
           --filter=pandoc-citeproc
 

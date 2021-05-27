@@ -31,21 +31,17 @@ a version.
 The container comes with no additional Modules pre-installed except xdebug. You might
 want to add the following packages to your <kbd>.kick.yml</kbd> `packages:` section to install them.
 
-You'll find all available modules by running `apt update && apt search php8.0`
-
-
-**Example: Using Curl**
-```yaml
-packages: [php8.0-curl, php8.0-http, php8.0-raphf]
-```
-
 
 ## Preinstalld Extensions
 
 - [TexLive](https://www.tug.org/texlive/doc/texlive-en/texlive-en.html)
 - [Citing and Bibliography]()
 - [General Numbering and Referencing of Images, Tables and Sections](https://github.com/tomduck/pandoc-xnos)
-- [PlantUML Diagramms]j(https://plantuml.com/de/theme)
+- [PlantUML Diagramms](https://plantuml.com/de/theme) and [how to use in pandoc](https://github.com/timofurrer/pandoc-plantuml-filter)
+
+## List available Fonts
+
+See all installed fonts with `fc-list`
 
 ## Default configuration
 

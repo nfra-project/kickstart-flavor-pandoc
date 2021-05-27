@@ -6,8 +6,7 @@ from: markdown+emoji
 output-file: output.pdf
 input-files:
   - 1-text.md
-  - 2-text.md
-
+  - 2-plantuml.md
 
 standalone: true
 self-contained: false
