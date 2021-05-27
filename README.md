@@ -40,7 +40,11 @@ packages: [php8.0-curl, php8.0-http, php8.0-raphf]
 ```
 
 
+## Preinstalld Extensions
 
+- [TexLive](https://www.tug.org/texlive/doc/texlive-en/texlive-en.html)
+- [Citing and Bibliography]()
+- [General Numbering and Referencing of Images, Tables and Sections](https://github.com/tomduck/pandoc-xnos)
 
 ## Default configuration
 

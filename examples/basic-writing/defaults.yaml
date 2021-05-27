@@ -1,0 +1,23 @@
+#
+# See all options: https://pandoc.org/MANUAL.html#default-files
+
+from: markdown+emoji
+to: pdf
+
+input-files:
+  - text.md
+
+template: letter
+standalone: true
+self-contained: false
+
+table-of-contents: true
+toc-depth: 2
+number-sections: false
+
+citeproc: true
+csl: ieee
+bibliography:
+- foobar.bib
+- barbaz.json
+citation-abbreviations: abbrevs.json

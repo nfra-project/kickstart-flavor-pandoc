@@ -1,0 +1,12 @@
+---
+title: 'This is the title of the document'
+keywords:
+abstract: |
+  This is the abstract
+
+from: markdown+emoji
+to: pdf
+
+input-files:
+  - text.md
+...

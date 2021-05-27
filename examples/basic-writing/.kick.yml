@@ -1,0 +1,17 @@
+# Kickstart container config file - see https://gitub.com/infracamp/kickstart
+# Run ./kickstart.sh to start a development-container for this project
+version: 1
+from: "nfra/kickstart-flavor-pandoc:2"
+
+
+command:
+  dev: |
+    pandoc -s -o _out/document.pdf \
+          --template _conf/template.tex \
+          --file-scope \
+          --filter=pandoc-xnos \
+          --filter=pandoc-citeproc \
+          --csl=_conf/ieeeurl.csl \
+          --bibliography _conf/bib.bib \
+          text.md
+

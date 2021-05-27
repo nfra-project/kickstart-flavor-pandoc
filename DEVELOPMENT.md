@@ -1,5 +1,9 @@
 # Developing this container
 
+To test the container without pulling it from registry got to `test` directory
+and run `./kickstart.sh`. Afterwards go to the example directory and run
+`kickstart --offline`.
+
 
 ## Dockerhub integration
 
