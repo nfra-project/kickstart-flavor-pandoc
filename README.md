@@ -1,2 +1,46 @@
-# kickstart-flavor-pandoc
-A pandoc LaTeX Container
+
+# kickstart-flavor PanDoc :: LaTeX Document generating container
+
+[![Actions Status](https://github.com/nfra-project/kickstart-flavor-pandoc/workflows/test/badge.svg)](https://github.com/nfra-project/kickstart-flavor-pandoc/actions)
+[![Docker Pulls](https://img.shields.io/docker/pulls/nfra/kickstart-flavor-pandoc.svg)](https://github.com/nfra-project/kickstart-flavor-pandoc)
+
+see (http://github.com/infracamp/kickstart) for more information.
+
+Document Index:
+
+- [Development Guide for this flavor](DEVELOPMENT.md)
+- [Dockerhub page](https://hub.docker.com/r/nfra/kickstart-flavor-pandoc/)
+    - [Tags available](https://hub.docker.com/r/nfra/kickstart-flavor-pandoc/tags/)
+    - [Build details](https://hub.docker.com/r/nfra/kickstart-flavor-pandoc/builds/)
+
+
+## Tags
+
+*Use -min images in Dockerfile and main image in .kick.yml*
+
+| Tag         | OS                            | Branch     | CKit | Docs |
+|-------------|-------------------------------|------------|------|------|
+| 2           | Ubuntu 20.04                  | 2-stable | 1.1  | [Readme](https://github.com/nfra-project/kickstart-flavor-pandoc/tree/2-stable) |
+| unstable    | Ubuntu 20.04 (master), Pandoc 2.5   | master     | unstable  | [Readme](https://github.com/nfra-project/kickstart-flavor-pandoc/) |
+
+Kickstart uses a fixed version of Ckit to keep the features freeze within
+a version.
+
+## Install additional packages
+
+The container comes with no additional Modules pre-installed except xdebug. You might
+want to add the following packages to your <kbd>.kick.yml</kbd> `packages:` section to install them.
+
+You'll find all available modules by running `apt update && apt search php8.0`
+
+
+**Example: Using Curl**
+```yaml
+packages: [php8.0-curl, php8.0-http, php8.0-raphf]
+```
+
+
+
+
+## Default configuration
+
