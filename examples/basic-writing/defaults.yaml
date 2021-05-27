@@ -5,21 +5,20 @@ from: markdown+emoji
 
 output-file: output.pdf
 input-files:
-  - text.md
+  - 1-text.md
+  - 2-text.md
 
-template: letter
+
 standalone: true
 self-contained: false
 
 variables:
-  documentclass: book
-  classoption:
-    - twosides
-    - draft
+  documentclass: report
+
 
 table-of-contents: true
 toc-depth: 2
-number-sections: false
+number-sections: true
 
 #citeproc: true
 csl: _conf/ieeeurl.csl

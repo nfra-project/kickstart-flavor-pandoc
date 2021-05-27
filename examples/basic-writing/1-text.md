@@ -1,8 +1,6 @@
 ---
 title: 'This is the title of the document'
 keywords:
-abstract: |
-  This is the abstract
 ...
 
 # Main Heading
@@ -12,7 +10,7 @@ documents.
 
 ## Images
 
-A image as seen in *@fig:orga1 can be inserted easily using markdown and
+A image as seen in *@fig:orga1 can be inserted easily using markdown and have some fancy cyting [see @t3n_2021 p. 34-35].
 
 ![Organisational Image](_media/orga-eg.png){#fig:orga1}
 

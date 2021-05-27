@@ -8,7 +8,6 @@ command:
   dev: |
     pandoc -o _out/document.pdf \
           --defaults defaults.yaml \
-          --template _conf/template.tex \
           --file-scope \
           --filter=pandoc-xnos \
           --filter=pandoc-citeproc
