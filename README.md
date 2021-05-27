@@ -26,6 +26,11 @@ Document Index:
 Kickstart uses a fixed version of Ckit to keep the features freeze within
 a version.
 
+## Basic example
+
+You find a example in [examples directory](examples/). A demostration of the pdf output can be found 
+in [document.pdf](examples/basic-writing/output.pdf).
+
 ## Install additional packages
 
 The container comes with no additional Modules pre-installed except xdebug. You might
