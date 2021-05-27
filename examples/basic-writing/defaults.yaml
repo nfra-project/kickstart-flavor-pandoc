@@ -2,8 +2,8 @@
 # See all options: https://pandoc.org/MANUAL.html#default-files
 
 from: markdown+emoji
-to: pdf
 
+output-file: output.pdf
 input-files:
   - text.md
 
@@ -11,13 +11,19 @@ template: letter
 standalone: true
 self-contained: false
 
+variables:
+  documentclass: book
+  classoption:
+    - twosides
+    - draft
+
 table-of-contents: true
 toc-depth: 2
 number-sections: false
 
-citeproc: true
-csl: ieee
+#citeproc: true
+csl: _conf/ieeeurl.csl
 bibliography:
-- foobar.bib
-- barbaz.json
-citation-abbreviations: abbrevs.json
+- "_conf/bib.bib"
+
+# citation-abbreviations: abbrevs.json

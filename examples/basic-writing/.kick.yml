@@ -6,12 +6,10 @@ from: "nfra/kickstart-flavor-pandoc:2"
 
 command:
   dev: |
-    pandoc -s -o _out/document.pdf \
+    pandoc -o _out/document.pdf \
+          --defaults defaults.yaml \
           --template _conf/template.tex \
           --file-scope \
           --filter=pandoc-xnos \
-          --filter=pandoc-citeproc \
-          --csl=_conf/ieeeurl.csl \
-          --bibliography _conf/bib.bib \
-          text.md
+          --filter=pandoc-citeproc
 

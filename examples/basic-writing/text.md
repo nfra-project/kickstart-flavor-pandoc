@@ -3,12 +3,6 @@ title: 'This is the title of the document'
 keywords:
 abstract: |
   This is the abstract
-
-from: markdown+emoji
-to: pdf
-
-input-files:
-  - include.md
 ...
 
 # Main Heading
@@ -18,7 +12,7 @@ documents.
 
 ## Images
 
-A image as seen in @fig:orga1 can be inserted easily using markdown and
+A image as seen in *@fig:orga1 can be inserted easily using markdown and
 
 ![Organisational Image](_media/orga-eg.png){#fig:orga1}
 

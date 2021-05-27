@@ -3,13 +3,13 @@
 
 set -e
 
-apt-get update
-
-apt-get -y install texlive-bibtex-extra texlive texlive-latex-extra \
+apt-get -y install texlive-bibtex-extra texlive-latex-extra \
     biber librsvg2-bin pandoc pandoc-citeproc pandoc-plantuml-filter pandoc-sidenote \
     pip
 
-pip install pandoc-tablenos pandoc-fignos pandoc-eqnos pandoc-secnos pandoc-xnos --user
+#
+
+sudo -u user pip install pandoc-tablenos pandoc-fignos pandoc-eqnos pandoc-secnos pandoc-xnos --user
 
 
 # Allow access to composer global install scripts
