@@ -8,4 +8,4 @@ packages: [texlive-lang-german]
 
 command:
   dev:
-
+  test: "echo ok"
