@@ -11,7 +11,7 @@ apt-get -y install texlive-bibtex-extra texlive-latex-extra texlive-xetex \
 
 sudo -u user pip install \
     pandoc-tablenos pandoc-fignos pandoc-eqnos pandoc-secnos pandoc-xnos \
-    pandoc-plantuml-filter pandoc-acronyms \
+    pandoc-plantuml-filter \
     --user
 
 
