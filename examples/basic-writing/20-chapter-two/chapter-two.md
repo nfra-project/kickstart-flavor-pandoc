@@ -4,7 +4,6 @@
 
 The diagramm in *@fig:diag2  is generated automatically
 
-
 ```{ .plantuml height=30% id=fig:diag2 caption='some caption' }
 Alice -> Bob: Authentication Request
 Bob --> Alice: Authentication Response
@@ -12,7 +11,6 @@ Bob --> Alice: Authentication Response
 Alice -> Bob: Another authentication Request
 Alice <-- Bob: another authentication Response
 ```
-
 
 ## And a Mindmap
 

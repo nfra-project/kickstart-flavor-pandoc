@@ -1,27 +1,33 @@
 #
 # See all options: https://pandoc.org/MANUAL.html#default-files
 
-from: markdown+emoji
+from: markdown+emoji+abbreviations
 
 output-file: output.pdf
 input-files:
-  - 1-text.md
-  - 2-plantuml.md
+  - "10-chapter-one/chapter-one.md"
+  - "20-chapter-two/chapter-two.md"
+  - "99-appendix/appendix.md"
 
 standalone: true
 self-contained: false
+
 
 variables:
   documentclass: report
 
 
+
 table-of-contents: true
 toc-depth: 2
 number-sections: true
-
+section-divs: true
 #citeproc: true
 csl: _conf/ieeeurl.csl
 bibliography:
 - "_conf/bib.bib"
+
+#reference-links: true
+
 
 # citation-abbreviations: abbrevs.json

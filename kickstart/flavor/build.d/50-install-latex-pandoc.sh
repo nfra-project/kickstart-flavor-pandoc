@@ -5,13 +5,13 @@ set -e
 
 apt-get -y install texlive-bibtex-extra texlive-latex-extra texlive-xetex \
     biber librsvg2-bin pandoc pandoc-citeproc \
-    pip plantuml  fonts-ubuntu
+    pip plantuml  fonts-ubuntu inotify-tools
 
 # PlantUML istalls Java! -> big
 
 sudo -u user pip install \
     pandoc-tablenos pandoc-fignos pandoc-eqnos pandoc-secnos pandoc-xnos \
-    pandoc-plantuml-filter \
+    pandoc-plantuml-filter pandoc-acronyms \
     --user
 
 

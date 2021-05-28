@@ -41,6 +41,7 @@ want to add the following packages to your <kbd>.kick.yml</kbd> `packages:` sect
 
 - [TexLive](https://www.tug.org/texlive/doc/texlive-en/texlive-en.html)
 - [Citing and Bibliography]()
+- [Acronyms](https://github.com/tomncooper/pandoc-gls)
 - [General Numbering and Referencing of Images, Tables and Sections](https://github.com/tomduck/pandoc-xnos)
 - [PlantUML Diagramms](https://plantuml.com/de/theme) and [how to use in pandoc](https://github.com/timofurrer/pandoc-plantuml-filter)
 

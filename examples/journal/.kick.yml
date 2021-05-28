@@ -11,9 +11,9 @@ command:
           --pdf-engine=xelatex \
           --file-scope \
           --filter=pandoc-plantuml \
+          --filter=pandoc-acronyms \
           --filter=pandoc-xnos \
-          --filter=pandoc-citeproc \
-          --lua-filter pandoc-gls.lua
+          --filter=pandoc-citeproc
 
 
   wait: |
