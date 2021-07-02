@@ -44,6 +44,7 @@ want to add the following packages to your <kbd>.kick.yml</kbd> `packages:` sect
 - [Acronyms](https://github.com/tomncooper/pandoc-gls)
 - [General Numbering and Referencing of Images, Tables and Sections](https://github.com/tomduck/pandoc-xnos)
 - [PlantUML Diagramms](https://plantuml.com/de/theme) and [how to use in pandoc](https://github.com/timofurrer/pandoc-plantuml-filter)
+- [poppler-utils like pdfunite to merge single files into one big](/home/matthes/Projects/leanear-docs/openmenu)
 
 ## List available Fonts
 

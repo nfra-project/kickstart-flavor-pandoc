@@ -5,7 +5,7 @@ set -e
 
 apt-get -y install texlive-bibtex-extra texlive-latex-extra texlive-xetex \
     biber librsvg2-bin pandoc pandoc-citeproc \
-    pip plantuml  fonts-ubuntu inotify-tools texlive-lang-german texlive-lang-english
+    pip plantuml  fonts-ubuntu inotify-tools texlive-lang-german texlive-lang-english poppler-utils
 
 # PlantUML istalls Java! -> big
 
