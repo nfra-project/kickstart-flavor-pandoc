@@ -1,5 +1,5 @@
 FROM nfra/kickstart-ckit:unstable AS ckit
-FROM ubuntu:20.10
+FROM ubuntu:22.04
 
 
 LABEL   maintainer="Matthias Leuffen <m@tth.es>" \
