@@ -18,11 +18,12 @@ Document Index:
 
 *Use -min images in Dockerfile and main image in .kick.yml*
 
-| Tag         | OS                                | Branch     | CKit     | Docs |
-|-------------|-----------------------------------|------------|----------|------|
-| 2           | Ubuntu 20.04                      | 2-stable   | 1.1      | [Readme](https://github.com/nfra-project/kickstart-flavor-pandoc/tree/2-stable) |
-| unstable    | Ubuntu 20.10 (master), Pandoc 2.5 | main       | unstable | [Readme](https://github.com/nfra-project/kickstart-flavor-pandoc/) |
-| unstable    | Ubuntu 22.04 (master), Pandoc 2.5 | main       | unstable | [Readme](https://github.com/nfra-project/kickstart-flavor-pandoc/) |
+| Tag       | OS                                | Branch     | CKit     | Docs |
+|-----------|-----------------------------------|------------|----------|------|
+| 2         | Ubuntu 20.04                      | 2-stable   | 1.1      | [Readme](https://github.com/nfra-project/kickstart-flavor-pandoc/tree/2-stable) |
+| old-stable | Ubuntu 20.10 (master), Pandoc 2.5 | main       | unstable | [Readme](https://github.com/nfra-project/kickstart-flavor-pandoc/) |
+| unstable  | Ubuntu 22.04 (master), Pandoc 2.5 | main       | unstable | [Readme](https://github.com/nfra-project/kickstart-flavor-pandoc/) |
+| release/3 | Ubuntu 22.04 (master), Pandoc 2.5 | main       | unstable | [Readme](https://github.com/nfra-project/kickstart-flavor-pandoc/) |
 
 Kickstart uses a fixed version of Ckit to keep the features freeze within
 a version.
