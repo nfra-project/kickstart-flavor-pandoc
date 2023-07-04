@@ -17,7 +17,7 @@ sudo -u user pip install \
 
 
 # Allow access to composer global install scripts
-echo 'export PATH="$PATH:/home/user/.local/bin:$WORKDIR/node_modules/.bin:"' >> /etc/kick_bashrc.d/path
+echo 'export PATH="$PATH:$WORKDIR/vendor/bin:$PATH:/home/user/.local/bin:$WORKDIR/node_modules/.bin:"' >> /etc/kick_bashrc.d/path
 
 touch /home/user/.bashrc.kickstart
 chmod 755 /home/user/.bashrc.kickstart
