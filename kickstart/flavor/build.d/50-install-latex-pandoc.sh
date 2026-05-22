@@ -7,7 +7,7 @@ apt-get -y install texlive-bibtex-extra texlive-latex-extra texlive-xetex \
     biber librsvg2-bin pandoc \
     pip plantuml  fonts-ubuntu inotify-tools texlive-lang-german texlive-lang-english  poppler-utils \
     php php-curl php-http php-raphf php-yaml composer npm nodejs \
-    pandoc-plantuml-filter pandoc-sidenote pampi pandoc-data
+    pandoc-plantuml-filter pampi pandoc-data
 
 
 
