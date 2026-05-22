@@ -2,9 +2,7 @@ FROM nfra/kickstart-ckit:unstable AS ckit
 FROM ubuntu:26.04
 
 
-LABEL   maintainer="Matthias Leuffen <m@tth.es>" \
-        org.infracamp.flavor.tag="${DOCKER_TAG}" \
-        org.infracamp.flavor.name="${IMAGE_NAME}"
+LABEL   maintainer="Matthias Leuffen <m@tth.es>"
 
 COPY --from=ckit /kickstart /kickstart
 
