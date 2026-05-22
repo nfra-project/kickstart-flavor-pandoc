@@ -15,8 +15,8 @@ apt-get -y install texlive-bibtex-extra texlive-latex-extra texlive-xetex \
 npm install -g @earendil-works/pi-coding-agent
 # Install Tools for pi
 sudo apt install -y ripgrep fd-find
-
-
+pi install npm:pi-web-access
+pi install npm:pi-subagents
 
 # Allow access to composer global install scripts
 echo 'export PATH="$PATH:$WORKDIR/vendor/bin:$PATH:/home/user/.local/bin:$WORKDIR/node_modules/.bin:"' >> /etc/kick_bashrc.d/path
