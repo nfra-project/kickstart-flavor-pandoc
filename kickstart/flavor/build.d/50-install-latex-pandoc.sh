@@ -4,7 +4,7 @@
 set -e
 
 apt-get -y install texlive-bibtex-extra texlive-latex-extra texlive-xetex \
-    biber librsvg2-bin pandoc pandoc-citeproc \
+    biber librsvg2-bin pandoc \
     pip plantuml  fonts-ubuntu inotify-tools texlive-lang-german texlive-lang-english poppler-utils \
     php php-curl php-http php-raphf php-yaml composer npm nodejs
 
