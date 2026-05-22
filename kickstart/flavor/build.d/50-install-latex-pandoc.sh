@@ -5,15 +5,11 @@ set -e
 
 apt-get -y install texlive-bibtex-extra texlive-latex-extra texlive-xetex \
     biber librsvg2-bin pandoc \
-    pip plantuml  fonts-ubuntu inotify-tools texlive-lang-german texlive-lang-english poppler-utils \
-    php php-curl php-http php-raphf php-yaml composer npm nodejs
+    pip plantuml  fonts-ubuntu inotify-tools texlive-lang-german texlive-lang-english  poppler-utils \
+    php php-curl php-http php-raphf php-yaml composer npm nodejs \
+    pandoc-plantuml-filter pandoc-sidenote pampi pandoc-data
 
-# PlantUML istalls Java! -> big
 
-sudo -u user pip install \
-    pandoc-tablenos pandoc-fignos pandoc-eqnos pandoc-secnos pandoc-xnos \
-    pandoc-plantuml-filter \
-    --user
 
 # Install PI Coding Agent
 npm install -g @earendil-works/pi-coding-agent
