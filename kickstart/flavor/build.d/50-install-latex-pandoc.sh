@@ -16,7 +16,10 @@ npm install -g @earendil-works/pi-coding-agent
 # Install Tools for pi
 sudo apt install -y ripgrep fd-find
 
+# Plugins
 sudo -u user pi install npm:pi-smart-fetch
+sudo -u user pi install npm:@apmantza/greedysearch-pi
+sudo -u user pi install npm:@juicesharp/rpiv-ask-user-question
 
 
 # Allow access to composer global install scripts
