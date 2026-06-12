@@ -16,7 +16,7 @@ npm install -g @earendil-works/pi-coding-agent
 # Install Tools for pi
 sudo apt install -y ripgrep fd-find
 
-pi install npm:pi-smart-fetch
+sudo -u user pi install npm:pi-smart-fetch
 
 
 # Allow access to composer global install scripts
