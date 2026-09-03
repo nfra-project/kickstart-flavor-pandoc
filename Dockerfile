@@ -1,4 +1,4 @@
-FROM nfra/kickstart-ckit:unstable AS ckit
+FROM nfra/kickstart-ckit:1.9.0 AS ckit
 FROM ubuntu:26.04
 
 
