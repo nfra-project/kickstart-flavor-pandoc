@@ -21,6 +21,16 @@ sudo -u user pi install npm:pi-smart-fetch
 sudo -u user pi install npm:@apmantza/greedysearch-pi
 sudo -u user pi install npm:@juicesharp/rpiv-ask-user-question
 
+// Set default model and trust
+sudo -u user -H sh -c '
+  mkdir -p "$HOME/.pi/agent"
+  printf "%s\n" \
+    "{" \
+    "  \"defaultProvider\": \"openai-codex\"," \
+    "  \"defaultModel\": \"gpt-5.6-luna\"," \
+    "  \"defaultProjectTrust\": \"always\"" \
+    "}" > "$HOME/.pi/agent/settings.json"
+'
 
 # Allow access to composer global install scripts
 echo 'export PATH="$PATH:$WORKDIR/vendor/bin:$PATH:/home/user/.local/bin:$WORKDIR/node_modules/.bin:"' >> /etc/kick_bashrc.d/path
