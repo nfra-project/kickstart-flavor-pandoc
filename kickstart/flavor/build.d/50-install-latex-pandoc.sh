@@ -17,9 +17,9 @@ npm install -g @earendil-works/pi-coding-agent
 sudo apt install -y ripgrep fd-find
 
 # Plugins
-sudo -u user pi install npm:pi-smart-fetch
-sudo -u user pi install npm:@apmantza/greedysearch-pi
-sudo -u user pi install npm:@juicesharp/rpiv-ask-user-question
+pi install npm:pi-smart-fetch
+pi install npm:@apmantza/greedysearch-pi
+pi install npm:@juicesharp/rpiv-ask-user-question
 
 ## Set default model and trust
 sudo -u user -H sh -c '
